@@ -8,8 +8,8 @@
 		<title>Welcome</title>
 	</head> 
 	<body>
-		<c:url value="/showMessage.html" var="messageUrl" />
+		<c:url value="/hello.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to enter</a>
-		<c:set var="message" value="Hello World!" scope="session"/>
+<%-- 		<c:set var="message" value="Hello World!" scope="session"/> --%>
 	</body>
 </html>
